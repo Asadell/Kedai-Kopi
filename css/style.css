@@ -282,6 +282,11 @@ body {
   -o-border-radius: 20px;
 }
 
+.form-container .checkout-button.disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh; /* agar penuh 1 layar */
